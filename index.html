@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="project.css">
+
+    <style>
+        #content-homepage .heading .text-content #name {
+            line-height: 80px;
+            font-size: 40px;
+        }
+
+        #greet-message {
+            line-height: 80px;
+        }
+
+        #content-homepage .sport h3,
+        #content-homepage .music h3 {
+            font-size: 28px;
+        } 
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <nav class="nav_pc">
+                <ul id="nav">
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="Hometown.html">Home Town</a></li>
+                    <li><a href="FavoriteActivity.html">Favorite Activity</a></li>
+                    <li><a href="mailto:Ha.V.Hoang@student.uts.edu.au" target="_blank">Email Me</a></li>
+                </ul>    
+            </nav>
+
+            <label for="nav-mobile-input" class="nav_bars-btn" style="height: 100%;">
+                <img src="Image/icons8-menu-bar-50.png" alt="Nav bars" style="width: 30px; display: inline-block; margin: auto;">
+            </label>    
+
+            <input type="checkbox" name="" class="nav__input" id="nav-mobile-input">
+
+            <label for="nav-mobile-input" class="nav__overlay"></label>
+
+            <nav class="nav__mobile">
+                <div class="nav__close-cover">
+                    <div class="nav__close-hover" style="display: block; float: right; height: 100%;">
+                        <label for="nav-mobile-input" class="nav__mobile-close" style="cursor: pointer; display: flex; height: 100%;">
+                            <img src="Image/icons8-close-48.png" alt="close" style="width: 30px; display: inline-block; margin: auto;">
+                        </label>        
+                    </div>
+                </div>
+                <ul class="nav__mobile-list">
+                    <li><a href="#" class="nav__mobile-link"><img src="Image/business-icon-png-1936.png" alt="Person" style="width: 25px;"> &nbsp About Me</a></li>
+                    <li><a href="Hometown.html" class="nav__mobile-link"><img src="Image/house-png-211.png" alt="Home" style="width: 25px;"> &nbsp Home Town</a></li>
+                    <li><a href="FavoriteActivity.html" class="nav__mobile-link"><img src="Image/boxing-png-33000.png" alt="Boxing" style="width: 30px;"> &nbsp Favorite Activity</a></li>
+                    <li><a href="mailto:Ha.V.Hoang@student.uts.edu.au" target="_blank" class="nav__mobile-link" style="padding-left: 25px;"><img src="Image/envelope-icon-18230.png" alt="Mail" style="width: 20px;"> &nbsp Email Me</a></li>
+                </ul>    
+            </nav>
+
+            <div id="logo" style="font-family: Snell Roundhand; font-size: 24px;">Ha Vi Hoang</div>
+        </div>
+        <div id="container" class="apple-font-type">
+            <h1 data-text="&nbsp;Welcome to my website!&nbsp;">&nbsp;Welcome to my website!&nbsp;</h1>
+        </div>
+        <div id="slider">
+            <div class="slide-homepage" style="background-image: url('Image/HomePage/Flag_of_Vietnam.svg.png');"></div>
+            <div class="slide-homepage" style="background-image: url('Image/HomePage/Pho noodle.JPG');"></div>
+            <div class="slide-homepage" style="background-image: url('Image/HomePage/HP-1024x687.jpg');"></div>
+            <div class="slide-homepage" style="background-image: url('Image/HomePage/Family.JPG'); background-position: top;"></div>
+        </div>
+        <div id="content-homepage">
+            <div class="heading">
+                <div class="text-content" style="text-align: center;">
+                    <h1 id="name" class="apple-font-type">Ha Vi Hoang</h1>
+                    <img class="small-screen" src="Image/HomePage/avatar.jpg" alt="Avatar" style="width: 200px; height: 200px; margin-top: 8px; margin-bottom: 12px;">
+                    <p class="large-screen">UTS College Student</p>        
+                    <p class="small-screen" style="font-family: PT Serif; color: black;">Student ID: 14575308</p>        
+                </div>
+            </div>
+            <div class="first-column-homepage">
+                <div class="about-section">
+                    <h1>About Me</h1>
+                    <h3 id="greet-message">Hello there!</h3>
+                    <p style="line-height: 30px;"><img class="avatar" src="Image/HomePage/avatar.jpg" alt="Avatar" style="width: 200px; height: 200px; margin-top: 8px; margin-bottom: 5px;">
+                        I’m a college student preparing to major in cybersecurity in my second year. The complexity and importance of protecting digital spaces are what drives my passion for this field. I’m excited to explore the challenges and opportunities that come with securing our increasingly connected world.                        
+                        <br>
+                        <br>
+                        Beyond academics, I have a strong love for singing and sports. Music is my way of expressing emotions and unwinding, while sports help me stay active and focused. These hobbies bring balance to my life, allowing me to explore different sides of myself.      
+                        <br>
+                        <br>
+                        By nature, I'm kind of an introvert, which means I tend to be more quiet and thoughtful in my interactions. I might not always be the first to speak up in a crowd, but I genuinely value deep, meaningful connections with others. I believe that true friendship is built on understanding, trust, and shared experiences. Even though I’m not the most talkative, I’m always eager to connect with those who appreciate sincerity and are open to forming lasting bonds. Let's connect and grow together in this journey of life!    
+                    </p>    
+                </div>
+            </div>
+            <div class="second-column-homepage">
+                <div class="profile">
+                    <h3>Details</h3>
+                    <ul>
+                        <li><img src="Image/HomePage/Info.png" alt="Info" style="width: 20px;"> &nbsp Name: Ha Vi Hoang</li>
+                        <li><img src="Image/HomePage/Info.png" alt="Info" style="width: 20px;"> &nbsp Student ID: 14575308</li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <!-- <li><a href="mailto:Ha.V.Hoang@student.uts.edu.au" target="_blank" style="text-decoration: none;"><img src="Image/HomePage/Gmail.png" alt="Gmail" style="width: 20px;"></a> &nbsp Gmail: </li>
+                        <li style="margin-top: 0px;">Ha.V.Hoang@student.uts.edu.au</li> -->
+                        <li><a href="https://www.instagram.com/viha2610/" target="_blank" style="text-decoration: none;"><img src="Image/HomePage/Instagram.png" alt="Instagram" style="width: 20px;"></a> &nbsp Instagram: viha2610</li>
+                        <li><a href="https://www.facebook.com/vi.hoangha.7/" target="_blank" style="text-decoration: none;"><img src="Image/HomePage/Facebook.png" alt="Facebook" style="width: 20px;"></a> &nbsp Facebook: Hà Vi</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="music" style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-left: 50px; margin-right: 50px;">
+                <div style="flex: 1; min-width: 40%;">
+                    <h3>Singing and Music: A Melody for the Soul</h3>
+                    <p>Music has always been a mean of joy and comfort for me. I find singing to be a powerful way to express emotions and connect with others. Whether it’s singing alone to unwind or performing in front of an audience, music allows me to explore different aspects of my personality. Additionally, playing musical instruments or simply listening to music helps in relieving stress and enhancing creativity.</p>
+                    <video controls style="width: 400px; display: block; margin: auto; margin-top: 20px; max-width: 50%;">
+                        <source src="Image/Favorite Activity/IMG_0730.MOV">
+                    </video>    
+                    <div style="text-align: center; margin-top: 10px; color: gray; font-size: 14px; margin-bottom: 30px;"><i>One of my singing performance</i></div>
+                    <h4>Advantages of Singing and Music:</h4>
+                    <ul>
+                        <li><b>Emotional Well-being:</b> Music has a significant effect on mood, helping to reduce stress and bring happiness.</li>
+                        <li><b>Creativity:</b> Engaging with music stimulates the brain, fostering creativity and problem-solving abilities.</li>
+                        <li><b>Social Connection:</b> Music brings people together, whether it’s through a shared playlist or a group performance.</li>
+                    </ul>
+                    <img src="Image/Favorite Activity/Music.jpg" alt="Music" style="width: 600px; display: block; margin: auto; margin-top: 20px; min-width: 50%; max-width: 100%;">
+                    <div style="text-align: center; margin-top: 10px; color: gray; font-size: 14px;"><i>Music sounds through guitar (Source: Collected)</i></div>    
+                </div>
+            </div>
+            <div class="sport" style="margin-left: 50px; margin-right: 50px;">
+                <h3>Sports</h3>
+                <p>Sports play a significant role in my life. Whether it's playing badminton, soccer, or participating in other athletic activities, sports help me stay fit and healthy. They offer a way to challenge myself physically and mentally, providing a sense of accomplishment.</p>
+                <img src="Image/Favorite Activity/Badminton.jpg.webp" alt="Badminton" style="width: 600px; display: block; margin: auto; margin-top: 20px; min-width: 50%; max-width: 100%;">
+                <div style="text-align: center; margin-top: 10px; color: gray; font-size: 14px; margin-bottom: 30px;"><i>Badminton Sport (Source: Collected)</i></div>
+                <h4>Advantages of Playing Sports:</h4>
+                <ul>
+                    <li><strong>Physical Health:</strong> Regular sports activities improve health, strength, and flexibility.</li>
+                    <li><strong>Teamwork:</strong> Sports often involve working as part of a team, fostering collaboration and communication skills.</li>
+                    <li><strong>Stress Relief:</strong> Engaging in sports helps reduce stress and improve overall mood.</li>
+                </ul>            
+            </div>
+        </div>
+        <div id="footer">
+            <ul>
+                <li>
+                    <div style="text-align: center;">
+                        <a class="gmail-footer" href="mailto:Ha.V.Hoang@student.uts.edu.au" target="_blank"><img src="Image/Gmail.png" alt="Gmail" style="width: 45px;"></i></a>
+                        <p>Gmail</p>    
+                    </div>
+                </li>
+                <li>
+                    <div style="text-align: center;">
+                        <a class="insta-footer" href="https://www.instagram.com/viha2610/" target="_blank"><img src="Image/Instagram.png" alt="Instagram" style="width: 38px;"></a>
+                        <p>Instagram</p>
+                    </div>
+                </li>
+                <li>
+                    <div style="text-align: center;">
+                        <a class="facebook-footer" href="https://www.facebook.com/vi.hoangha.7/" target="_blank"><img src="Image/Facebook.png" alt="Facebook" style="width: 42px;"></a>
+                        <p>Facebook</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
